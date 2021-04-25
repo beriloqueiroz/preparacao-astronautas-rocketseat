@@ -1,0 +1,23 @@
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-width: 3px;
+    background-color:transparent;
+    color: white;
+  }
+html {
+    background-color: black;
+}
+label {
+    color: white;
+}
+legend{
+    color: white;
+    padding: 5px 10px;
+}
+button {
+    border-radius: 0;
+    height: 48px;
+}

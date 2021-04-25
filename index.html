@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <form id="form1" action="" method="get">
+        <fieldset>
+            <legend>Contato</legend>
+            <label for="name">
+                Nome:
+            </label>
+            <input type="text" id=name placeholder="Nome">
+            <br>
+            <label for="age">
+                Idade:&nbsp;
+            </label>
+            <input autofocus id="age" type="text" list="ageList" placeholder="Escolha um item">
+            <br>
+            <label for="cor">
+                Sua cor:
+            </label>
+            <input id="cor" type="color" list="colorList" placeholder="Escolha uma cor">
+            <br>
+            <label for="dateBorn">
+                Data de nascimento:
+            </label>
+            <input id="dateBorn" type="date">
+
+            <button type="submit" form="form1">Limpar</button>
+        </fieldset>
+    </form>
+    <datalist id="ageList">
+        <option value="0-15"></option>
+        <option value="16-25"></option>
+        <option value="26-40"></option>
+        <option value=">40"></option>
+    </datalist>
+    <datalist id="colorList">
+        <option value=""></option>
+        <option value=""></option>
+    </datalist>
+</body>
+
+</html>
