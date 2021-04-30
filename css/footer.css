@@ -1,0 +1,15 @@
+.hover-text-green:hover{    
+    color:#4CAF50!important
+}
+footer {
+    display:block;
+    text-align: center;
+}
+.padding-32{
+    padding-top:32px!important;
+    padding-bottom:32px!important
+}
+.light-grey{
+    color:#000!important;
+    background-color:#f1f1f1!important
+}

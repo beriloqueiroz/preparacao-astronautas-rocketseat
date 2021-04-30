@@ -1,5 +1,5 @@
 body {
-    background-color:white
+    background-color:white;
 }
 
 h1 {
@@ -15,8 +15,7 @@ p {
   #h_main_menu {    
     background-color: gray;
     width: auto;
-    height: auto; 
-    
+    height: auto;     
     box-shadow: 1px 10px 4px rgba(68, 68, 68, 0.2);
   }
 
@@ -38,23 +37,37 @@ p {
     margin-right: 10px;
 }
   #main_logo{      
-    margin-left: 10px; 
-    vertical-align: middle;
-    width: auto;
-    height: auto;
+    border:8px black solid;
+    margin-left: 10px;     
+    width: 70px;
+    height: 60px;
     display: flex;
     justify-content: space-between;     
   }
   #linklogo { 
+    border:8px brown solid;     
+    display: flex;
+    justify-content: space-between;   
+  }
+  #linklogo img{      
     display: table-cell;
     vertical-align: middle; 
-    margin: auto;
+    
   }
-  #linklogo img{  
-    display: table-cell;
-    vertical-align: middle; 
-    margin: auto;
+  #linklogo p {  
+    width: 54px;
+    height: 40px;
+    float: left;
+    margin: auto;   
+    text-align: center;  
+    font-size: 30px;
+    font-style: inherit;
   }
+
+  #linklogo p span{  
+    color: brown;
+  }
+  
 
   #main_nav {
     margin:0;
@@ -90,6 +103,26 @@ hr {
     border: 2px black solid;
 }
  
+#main {
+    margin: 10px 0px 0px 0px;
+    background-color: rgb(168, 164, 164);
+    width: auto;
+    height: auto;     
+    box-shadow: 1px 10px 4px rgba(68, 68, 68, 0.2);
+    width: 80%;
+    padding: 10px;
+}
+#lateral {
+    background-color: rgb(126, 100, 100);
+    width: auto;
+    height: 100%;     
+    box-shadow: 1px 10px 4px rgba(68, 68, 68, 0.2);
+    width: 15%;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+
+}
   
  
   

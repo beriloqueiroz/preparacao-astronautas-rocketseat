@@ -1,0 +1,25 @@
+body{
+    margin:0
+}
+html{
+    box-sizing:border-box;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+*,*:before{
+    box-sizing:inherit
+}
+*:after{
+    box-sizing:inherit
+}
+article,aside,details,figcaption,figure,header,main,menu,nav,section{
+    display:block;
+    text-align: center;
+}

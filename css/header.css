@@ -1,0 +1,46 @@
+.header-content{
+    /*max-width:1600px;
+    min-width:500px;*/
+    margin-left:auto;
+    margin-right:auto;
+    letter-spacing:4px;
+    position:relative;
+}
+
+img{
+    width: 100%;
+    vertical-align:middle
+}
+
+.display-bottomleft{
+    position:absolute;
+    left:0;bottom:0
+}
+.padding-large{
+    padding:12px 24px!important
+}
+.opacity{
+    opacity:0.60
+}
+.xlarge{
+    font-size:36px!important
+}
+
+.image{
+   max-width:100%;
+   
+   height:auto; 
+}
+
+.ass{
+    font-style: oblique; 
+    font-size: 15px;
+    font-family: "Times New Roman", Times, serif;
+    color: violet;
+
+}
+
+
+
+
+
