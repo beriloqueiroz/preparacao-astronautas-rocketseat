@@ -6,31 +6,56 @@
 <link rel="stylesheet" href="../css/body.css">
 <link rel="stylesheet" href="../css/header.css">
 <link rel="stylesheet" href="../css/footer.css">
-<link rel="stylesheet" href="../css/top.css">
-<link rel="stylesheet" href="../css/test.css">
+<link rel="stylesheet" href="../css/main.css">
 
 <body>
-    <div class="top">
-        <nav class="bar white padding card" style="letter-spacing:4px;">
-            <a href="#home" class="logoName left button">Berilo Queiroz</a>
-            <ul class="right  ul-item-inline">
-                <li><a href="#about" class="bar-item button">About</a></li>
-                <li><a href="#menu" class="bar-item button">Menu</a></li>
-                <li><a href="#contact" class="bar-item button">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-
     <header class="header-content" id="home">
+        <div class="top">
+            <nav class="bar white padding card" style="letter-spacing:4px;">
+                <a href="#home" class="logoName left button">Berilo Queiroz</a>
+                <ul class="right  ul-item-inline">
+                    <li><a href="#about" class="bar-item button">About</a></li>
+                    <li><a href="#menu" class="bar-item button">Menu</a></li>
+                    <li><a href="#contact" class="bar-item button">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <img class="image" src="../images/matrix.jpg" alt="Hamburger Catering">
         <div class="display-bottomleft padding-large opacity">
             <h1 class="xlarge ass">B3r1l0 Qu31r0z</h1>
         </div>
     </header>
 
-    <div>
+    <main class="app-main">
+        <div class="app-main-itens">
+            <div class="item1">
+                <iframe width="600" height="400" src="https://www.youtube.com/embed/Lf3ZV0UsnEo" title="video legal"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
 
-    </div>
+            <div class="item2">
+                <video controls autoplay preload="auto" loop muted>
+                    <source src=" ../images/big_buck.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="item3">
+                <video controls poster="../images/matrix.jpg">
+                    <source src=" ../images/big_buck.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="app-main-context">
+            <p>Contexto</p>
+            <audio class="app-main-context-audio" controls autoplay>
+                <source src="../images/audio-1.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </main>
 
     <footer class="center light-grey padding-32">
         <p>Powered by <a href="" title="berilo" target="_blank" class="hover-text-green">Berilo Queiroz</a></p>
