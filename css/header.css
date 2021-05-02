@@ -6,9 +6,11 @@
     letter-spacing:4px;
     position:relative;
 }
-img{
+.banner{
     width: 100%;
-    vertical-align:middle
+    vertical-align:middle;
+    max-width:100%;   
+    height:500px; 
 }
 .display-bottomleft{
     position:absolute;
@@ -22,11 +24,6 @@ img{
 }
 .xlarge{
     font-size:36px!important
-}
-
-.image{
-   max-width:100%;   
-   height:500px; 
 }
 
 .ass{
@@ -53,6 +50,11 @@ img{
 .white{
     color:#000!important;
     background-color:#fff!important
+}
+
+.black {
+    background-color: black;
+    color:white!important;
 }
 
 .right{
@@ -87,8 +89,8 @@ img{
 }
 
 .button:hover{
-    color:#000!important;
-    background-color:#ccc!important
+    color:black!important;
+    background-color:green!important
 }
 
 

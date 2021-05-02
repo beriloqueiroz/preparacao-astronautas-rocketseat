@@ -1,12 +1,14 @@
 body{
-    margin:0
+    margin:0;
+    background-image: url("../images/matrix.jpg");
 }
 html{
     box-sizing:border-box;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
 }
-p {
+p,a {
+    color: honeydew;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
